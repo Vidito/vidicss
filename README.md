@@ -1,5 +1,6 @@
 # vidicss
-A simple classless CSS framework with dark theme
+## This is just a test CSS framework for my personal use.
+## A simple classless CSS framework with dark theme.
 Simply use your semantic html tags and the page will be styled! 
 No need for any classes. 
 Note:
