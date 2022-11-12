@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vidito/vidicss@1.0/styles.min.css"> 
+  </head>
+  <body>
+<!-- Use a header to contain the NAV tag and other elements as centered -->
+<header>
+   <nav>
+      <a href="">Home</a>
+      <a href="#about">About</a>
+      <a href="#footer">Footer</a>
+   </nav>
+   <h1>VIDI CSS</h1>
+   <h3>A Classless CSS Framework</h3>
+   <button>Contact Me</button>
+   <button>My Projects</button>
+</header>
+<!-- A SECTION with ASIDE tags in it can give some cards which are responsive -->
+<section>
+  <h3>Section Tag Centers</h3>
+</section>
+<section>
+   <aside>
+      <h3>Card title</h3>
+      <p>
+         Use a html ASIDE tag inside a SECTION tag. It gives you this card.
+      </p>
+      <button>Read more</button>
+   </aside>
+   <aside>
+      <h3>Card title</h3>
+      <p>
+         Use a html ASIDE tag inside a SECTION tag. It gives you this card.
+      </p>
+      <button>Read more</button>
+   </aside>
+   <aside>
+      <h3>Card title</h3>
+      <p>
+         Use a html ASIDE tag inside a SECTION tag. It gives you this card.
+      </p>
+      <button>Read more</button>
+   </aside>
+</section>
+<section>
+   <blockquote>
+      <p>
+         This is a Blockquote tag in which there is a P tag and a CITE tag.
+      </p>
+      <cite>~ Vahid</cite>
+   </blockquote>
+</section>
+<!-- ARTICLE tag has a borderaround and also. below the heading. -->
+<article>
+   <h4 id="about">Article Tag</h4>
+   <p>
+      Use an ARTICLE tag, inside it you can have a heading, paragraph, image, button,...This is a P tag inside an article tag. It has a nice border and the title is separated by a line from the body.
+      laudantium ad vel culpa ut dolores debitis quas repudiandae nobis omnis?
+   </p>
+   <button>Contact</button>
+</article>
+<!-- Details tag is used as a collapsible. A summary tag is needed and a p tag for more info, -->
+<section>
+   <details>
+      <summary>Summary</summary>
+      <p>
+         This is a P tag inside a details tag. You should also have a summary tag inside the details tag which is by default. clickable.
+      </p>
+   </details>
+   <details>
+      <summary>Summary</summary>
+      <p>
+         This is a P tag inside a details tag. You should also have a summary tag inside the details tag which is by default. clickable.
+      </p>
+   </details>
+   <details>
+      <summary>Summary</summary>
+      <p>
+         This is a P tag inside a details tag. You should also have a summary tag inside the details tag which is by default. clickable.
+      </p>
+   </details>
+</section>
+<!-- The image tag can be used without a figure tag. the width 100% within the container. The caption is in the middle. -->
+<figure>
+   <img src="https://images.unsplash.com/photo-1667802132746-a88ae1251681?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="architecture" />
+   <figcaption>This is a caption.</figcaption>
+</figure>
+<!-- Forrrrrrrrmmmmmmmmmm -->
+<form action="#">
+   <label for="register_name" >Enter name:<input type="text" name="name" value="" id="register_name"/></label>
+   <label for="register_password" class="label">Enter password:
+   <input type="password" name="password" id="register_password"/></label>
+   <label for="register_email" class="label">Enter Email:
+   <input type="email" name="email" value="" id="register_email" /></label>
+   <label for="register_gender" class="label">Enter Gender:</label> 
+   <label for="register_gendermale"><input type="radio" name="gender" id="register_gendermale" value="male"/>  male </label>  
+   <label for="register_genderfemale"><input type="radio" name="gender" id="register_genderfemale" value="female"/> 
+   female</label>  
+   <label for="register_country" class="label">Select Country:</label>
+   <select name="country" id="register_country" style="width:160px">
+      <option value="india">USA</option>
+      <option value="pakistan">UK</option>
+      <option value="africa">Norway</option>
+      <option value="china">Canada</option>
+   </select>
+   <textarea name="" id="" cols="6" rows="10"></textarea>
+   <label for="scales"><input type="checkbox" id="scales" name="scales" checked>
+      I agree to <a href="#">terms and conditions.</a></label>
+   <input type="submit" id="register_0" value="register"/>  
+</form>
+<!-- The footer is in the middle. -->
+<footer id="footer">Copyright 2022 VIDICSS</footer>
+</body>
+</html>
