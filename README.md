@@ -1,5 +1,6 @@
 # vidicss
 ## A simple classless CSS framework with dark theme.
+## Demo: https://vidito.github.io/vidicss/
 ### Add the following link to your html file under head tag:
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vidito/vidicss@1.0/styles.min.css"> 
 Simply use your semantic html tags and the page will be styled! 
