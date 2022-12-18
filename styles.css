@@ -121,14 +121,29 @@ figcaption {
   color: var(--muted-color);
 }
 
-footer {
-  margin: 3rem 0;
-  padding-top: 2rem;
-  display: flex;
-  justify-content: center;
-  border-top: var(--border);
-  color: var(--muted-color);
+/*  Styling Table Start */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
+
+td, th {
+  border: 1px solid var(--btn-bg-color);
+  padding: 8px;
+}
+
+tr:hover {background-color: var(--muted-color); color: var(--btn-bg-color)}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--btn-bg-color);
+  color: var(--p-color);
+}
+
+/* Styling Table end */
 
 details {
   width: 100%;
@@ -181,6 +196,15 @@ label {
   margin-left: 5px;
 }
 /* Form styling ends */
+
+footer {
+  margin: 3rem 0;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  border-top: var(--border);
+  color: var(--muted-color);
+}
 
 @media only screen and (max-width: 600px) {
   body {
