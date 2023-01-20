@@ -96,8 +96,8 @@ article > h4 {
 }
 section {
   margin: 1rem 0;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 0.7rem;
 }
 section > aside {
@@ -211,7 +211,6 @@ footer {
     padding: 3%;
   }
   section {
-    flex-direction: column;
     gap: 0.5rem;
   }
 
